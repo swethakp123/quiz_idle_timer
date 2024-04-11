@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="quiz_time" inherit_id="survey.survey_page_fill">
+        <xpath expr="//div[hasclass('container')]"
+               position="after">
+            <div class="new_icon">
+                <div id="div-timer">
+                    <h1 id="idle_timer"/>
+                </div>
+            </div>
+        </xpath>
+    </template>
+</odoo>
